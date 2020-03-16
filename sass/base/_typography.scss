@@ -1,0 +1,27 @@
+.heading{
+    &__home{
+        text-transform: capitalize;
+        font-size: 6rem;
+        font-weight: 900;
+        color: $color-primary;
+        
+        display: block;
+
+    }
+}
+
+.paragraph{
+    &__home{
+        text-transform: capitalize;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-primary;
+    }
+    &__featured{
+        display: block;
+        text-transform: capitalize;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $color-grey;
+    }
+}   

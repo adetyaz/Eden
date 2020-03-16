@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+   overflow: hidden;
+    &__story{
+        position: relative;
+        bottom: 4rem;
+        
+    }
+    &__image-content{
+        margin-top: 8rem;
+    }
+    &__image{
+        width: 90%;
+        margin-right: 60rem;
+    }
+}
+
+.featured{
+    &__image-content{
+        display: flex;
+        
+    }
+    &__image{
+       margin: 1rem 2rem; 
+       width: 10rem;
+    }
+}

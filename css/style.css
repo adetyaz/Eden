@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Grotesque Pro';
+  src: url(../../css/fonts/BasisGrotesquePro-Regular.ttf); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.25%;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Grotesque Pro', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh; }
+
+.heading__home {
+  text-transform: capitalize;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #36558B;
+  display: block; }
+
+.paragraph__home {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #36558B; }
+
+.paragraph__featured {
+  display: block;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #9E9E9E; }
+
+.btn,
+.btn:link,
+.btn:visited {
+  background-color: #A9FEA3;
+  color: #277A21;
+  border: transparent;
+  border-radius: .3rem;
+  transition: all 1s ease-in-out;
+  display: block;
+  font-size: 1.6rem; }
+  .btn:hover,
+  .btn:link:hover,
+  .btn:visited:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+
+.btn__home {
+  width: 16rem;
+  height: 4.5rem;
+  padding: 10px 16px;
+  text-decoration: none;
+  margin-top: 3rem; }
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; }
+  .home__story {
+    position: relative;
+    bottom: 4rem; }
+  .home__image-content {
+    margin-top: 8rem; }
+  .home__image {
+    width: 90%;
+    margin-right: 60rem; }
+
+.featured__image-content {
+  display: flex; }
+
+.featured__image {
+  margin: 1rem 2rem;
+  width: 10rem; }
+
+.header {
+  position: relative; }
+  .header__logo-box {
+    position: absolute;
+    top: 1.5rem;
+    left: 5%; }
+  .header__logo {
+    height: 3rem;
+    width: 4rem; }
+
+.section-home {
+  background: transparent url("../../imgs/BG.png") no-repeat;
+  background-size: contain;
+  height: 100vh;
+  margin: 2rem 2rem; }
+
+.section-about {
+  margin-top: 50rem;
+  background: transparent linear-gradient(180deg, #FFF4BF 0%, #FFFFFF 100%) no-repeat;
+  background-size: contain;
+  height: 80vh; }
