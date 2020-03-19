@@ -1,27 +1,45 @@
-.heading{
-    &__home{
+.heading {
+    &__home {
         text-transform: capitalize;
         font-size: 6rem;
         font-weight: 900;
         color: $color-primary;
-        
         display: block;
-
+    }
+    &__about {
+        font-size: 5rem;
+        font-weight: 900;
+        text-transform: capitalize;
+        color: $color-black;
+        display: block;
     }
 }
 
-.paragraph{
-    &__home{
+.paragraph {
+    &__home {
         text-transform: capitalize;
         font-size: 1.6rem;
         font-weight: 400;
         color: $color-primary;
     }
-    &__featured{
+    &__featured {
         display: block;
         text-transform: capitalize;
         font-size: 1.8rem;
         font-weight: 600;
         color: $color-grey;
     }
-}   
+    &__about {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-black;
+        display: block;
+        &--features {
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: $color-black;
+            display: block;
+            text-align: left;
+        }
+    }
+}

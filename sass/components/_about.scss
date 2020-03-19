@@ -1,4 +1,49 @@
-.about{
+.about {
     display: flex;
     align-items: center;
+    background: transparent linear-gradient(180deg, #FFF4BF 0%, #FFFFFF 100%) no-repeat;
+    background-size: 122rem 45rem;
+    &__text-content {
+        flex: 0 0 50%;
+        padding-left: 4rem;
+        position: relative;
+        bottom: 60rem;
+        margin-bottom: -60rem;
+    }
+    &__features {
+        display: flex;
+        align-items: center;
+        &--experience {
+            margin-left: 2.5rem;
+        }
+        &--energy {
+            margin-left: 2.5rem;
+        }
+        &--icon {
+            height: 5rem;
+            width: 5rem;
+            text-align: center;
+        }
+    }
+    &__image-content {
+        margin: 0;
+    }
+    &__image {
+        height: 50rem;
+        position: relative;
+        &--1 {
+            bottom: 18rem;
+            right: 4rem;
+            margin-bottom: -18rem;
+        }
+        &--2 {
+            bottom: 28rem;
+            left: 16rem;
+            margin-left: -1rem;
+        }
+        &--3 {
+            bottom: 79rem;
+            margin-bottom: -68rem;
+        }
+    }
 }

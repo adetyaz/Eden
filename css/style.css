@@ -27,6 +27,13 @@ body {
   color: #36558B;
   display: block; }
 
+.heading__about {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: #000000;
+  display: block; }
+
 .paragraph__home {
   text-transform: capitalize;
   font-size: 1.6rem;
@@ -39,6 +46,57 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
   color: #9E9E9E; }
+
+.paragraph__about {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #000000;
+  display: block; }
+  .paragraph__about--features {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #000000;
+    display: block;
+    text-align: left; }
+
+.about {
+  display: flex;
+  align-items: center;
+  background: transparent linear-gradient(180deg, #FFF4BF 0%, #FFFFFF 100%) no-repeat;
+  background-size: 122rem 45rem; }
+  .about__text-content {
+    flex: 0 0 50%;
+    padding-left: 4rem;
+    position: relative;
+    bottom: 60rem;
+    margin-bottom: -60rem; }
+  .about__features {
+    display: flex;
+    align-items: center; }
+    .about__features--experience {
+      margin-left: 2.5rem; }
+    .about__features--energy {
+      margin-left: 2.5rem; }
+    .about__features--icon {
+      height: 5rem;
+      width: 5rem;
+      text-align: center; }
+  .about__image-content {
+    margin: 0; }
+  .about__image {
+    height: 50rem;
+    position: relative; }
+    .about__image--1 {
+      bottom: 18rem;
+      right: 4rem;
+      margin-bottom: -18rem; }
+    .about__image--2 {
+      bottom: 28rem;
+      left: 16rem;
+      margin-left: -1rem; }
+    .about__image--3 {
+      bottom: 79rem;
+      margin-bottom: -68rem; }
 
 .btn,
 .btn:link,
@@ -73,15 +131,16 @@ body {
   .home__image-content {
     margin-top: 8rem; }
   .home__image {
-    width: 90%;
-    margin-right: 60rem; }
+    width: 95%;
+    margin-right: 3rem; }
 
 .featured__image-content {
   display: flex; }
 
 .featured__image {
   margin: 1rem 2rem;
-  width: 10rem; }
+  width: 10rem;
+  height: min-content; }
 
 .header {
   position: relative; }
@@ -96,11 +155,9 @@ body {
 .section-home {
   background: transparent url("../../imgs/BG.png") no-repeat;
   background-size: contain;
-  height: 100vh;
   margin: 2rem 2rem; }
 
 .section-about {
-  margin-top: 50rem;
-  background: transparent linear-gradient(180deg, #FFF4BF 0%, #FFFFFF 100%) no-repeat;
-  background-size: contain;
-  height: 80vh; }
+  margin-top: 25rem;
+  overflow-x: visible;
+  padding-right: 18rem; }

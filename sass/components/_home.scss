@@ -1,29 +1,28 @@
-.home{
+.home {
     display: flex;
-   align-items: center;
-   justify-content: center; 
-   overflow: hidden;
-    &__story{
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    &__story {
         position: relative;
         bottom: 4rem;
-        
     }
-    &__image-content{
+    &__image-content {
         margin-top: 8rem;
     }
-    &__image{
-        width: 90%;
-        margin-right: 60rem;
+    &__image {
+        width: 95%;
+        margin-right: 3rem;
     }
 }
 
-.featured{
-    &__image-content{
+.featured {
+    &__image-content {
         display: flex;
-        
     }
-    &__image{
-       margin: 1rem 2rem; 
-       width: 10rem;
+    &__image {
+        margin: 1rem 2rem;
+        width: 10rem;
+        height: min-content;
     }
 }
