@@ -5,23 +5,29 @@
     background-size: 122rem 45rem;
     &__text-content {
         flex: 0 0 50%;
-        padding-left: 4rem;
+        padding-left: 10rem;
         position: relative;
-        bottom: 60rem;
+        bottom: 54rem;
         margin-bottom: -60rem;
     }
     &__features {
         display: flex;
         align-items: center;
+        margin-top: 10rem;
+        &--time {
+            flex: 0 0 44%;
+        }
         &--experience {
-            margin-left: 2.5rem;
+            flex: 0 0 45%;
+            margin-left: 2rem;
         }
         &--energy {
-            margin-left: 2.5rem;
+            flex: 0 0 45%;
+            margin-left: 2rem;
         }
         &--icon {
-            height: 5rem;
-            width: 5rem;
+            height: 6.5rem;
+            width: 6.5rem;
             text-align: center;
         }
     }
@@ -38,11 +44,12 @@
         }
         &--2 {
             bottom: 28rem;
-            left: 16rem;
-            margin-left: -1rem;
+            left: 21rem;
+            // margin-left: -1rem;
         }
         &--3 {
             bottom: 79rem;
+            left: 11rem;
             margin-bottom: -68rem;
         }
     }

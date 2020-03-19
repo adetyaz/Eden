@@ -8,10 +8,13 @@
     }
     &__about {
         font-size: 5rem;
-        font-weight: 900;
+        font-weight: bolder;
         text-transform: capitalize;
         color: $color-black;
         display: block;
+        padding: 10px 9rem;
+        margin-left: -10rem;
+        margin-bottom: 3rem;
     }
 }
 
