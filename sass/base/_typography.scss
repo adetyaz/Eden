@@ -16,6 +16,13 @@
         margin-left: -10rem;
         margin-bottom: 3rem;
     }
+    &__steps {
+        font-size: 5rem;
+        font-weight: bolder;
+        text-transform: capitalize;
+        color: $color-black;
+        display: block;
+    }
 }
 
 .paragraph {
@@ -44,5 +51,11 @@
             display: block;
             text-align: left;
         }
+    }
+    &__steps {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-black;
+        display: block;
     }
 }

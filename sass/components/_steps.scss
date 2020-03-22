@@ -1,0 +1,97 @@
+.steps {
+    display: flex;
+    align-items: center;
+    background: transparent linear-gradient(180deg, #F2FFFD 0%, #FFFFFF 100%) no-repeat;
+    background-size: 120rem 60rem;
+    &__image-content {
+        flex: 0 0 50%;
+    }
+    &__image {
+        width: 60%;
+        position: relative;
+        bottom: 10rem;
+        margin-bottom: -10rem;
+    }
+    &__list {
+        list-style: none;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: $color-black;
+    }
+    &__numbers {
+        border-radius: 100%;
+        background-color: $color-purple;
+        color: $color-white;
+        font-size: 1.3rem;
+        padding: 0.7rem 1.3rem;
+        margin: 1rem 1rem;
+    }
+    &__profile-card {
+        height: 10rem;
+        width: 10rem;
+        padding: 1rem 2rem;
+        background-color: $color-white;
+        color: $color-black;
+        border: 1px solid transparent;
+        border-radius: .1rem;
+        position: relative;
+        box-shadow: 0 1rem 1.5rem rgba($color-black, .5);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 98%, 0 82%);
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 0 82%);
+    }
+}
+
+.profile {
+    &__header {
+        display: flex;
+    }
+    &__name {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $color-primary;
+        display: block;
+    }
+    &__work {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: $color-primary;
+        display: block;
+    }
+    &__title {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $color-black;
+        display: block;
+        &::after {
+            border: 1px solid $color-grey;
+        }
+    }
+    &__list {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: $color-grey;
+        display: block;
+        margin: 1rem 0;
+    }
+    &__percentage {
+        display: flex;
+    }
+    &__percentage-number {
+        font-size: 2rem;
+        font-weight: 900;
+        color: $color-primary;
+        display: block;
+        margin: 0 2rem;
+    }
+    &__percentage-text {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: $color-primary;
+    }
+    &__percentage-count {
+        display: block;
+        width: 50%;
+        height: 2.5rem;
+        background-color: $color-purple;
+    }
+}
