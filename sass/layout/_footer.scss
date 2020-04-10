@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    &__list {
+        list-style: none;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: $color-black;
+        &:first-child {
+            font-weight: 800;
+            margin-bottom: 2.5rem;
+        }
+    }
+}

@@ -7,10 +7,10 @@
         flex: 0 0 50%;
     }
     &__image {
-        width: 60%;
+        width: 55%;
         position: relative;
-        bottom: 10rem;
-        margin-bottom: -10rem;
+        bottom: 12rem;
+        margin-bottom: -9rem;
     }
     &__list {
         list-style: none;
@@ -19,25 +19,60 @@
         color: $color-black;
     }
     &__numbers {
-        border-radius: 100%;
+        border-radius: 50%;
         background-color: $color-purple;
         color: $color-white;
-        font-size: 1.3rem;
-        padding: 0.7rem 1.3rem;
-        margin: 1rem 1rem;
+        display: inline-block;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+        margin: 1rem 2rem;
     }
     &__profile-card {
-        height: 10rem;
-        width: 10rem;
+        height: 44rem;
+        width: 40rem;
         padding: 1rem 2rem;
         background-color: $color-white;
         color: $color-black;
         border: 1px solid transparent;
         border-radius: .1rem;
         position: relative;
-        box-shadow: 0 1rem 1.5rem rgba($color-black, .5);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 98%, 0 82%);
-        clip-path: polygon(0 0, 100% 0, 100% 98%, 0 82%);
+        bottom: 12rem;
+        left: 12rem;
+        display: inline-block;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    }
+    &__profile-wrap {
+        filter: drop-shadow(0 0 1.3rem rgba($color-black, .2));
+    }
+    &__text-content {
+        position: relative;
+        bottom: 27rem;
+    }
+    &__misc-image {
+        position: relative;
+        z-index: -1;
+        bottom: 18rem;
+        height: 21rem;
+        right: 35.8rem;
+    }
+    &__check-mark {
+        background-color: #61FFA5;
+        position: relative;
+        display: inline-block;
+        right: 5%;
+        bottom: 10rem;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        z-index: 1;
+        padding: .5rem .4rem;
+        &-icon {
+            font-size: 3rem;
+            color: $color-white;
+            text-align: center;
+        }
     }
 }
 
@@ -51,6 +86,12 @@
         color: $color-primary;
         display: block;
     }
+    &__picture {
+        margin: 1rem 2rem;
+    }
+    &__details {
+        margin-top: 1rem;
+    }
     &__work {
         font-size: 1.4rem;
         font-weight: 400;
@@ -61,37 +102,56 @@
         font-size: 1.2rem;
         font-weight: 400;
         color: $color-black;
-        display: block;
+        margin-left: 2rem;
         &::after {
-            border: 1px solid $color-grey;
+            content: '';
+            border-bottom: 1px solid $color-grey-2;
+            display: inline-block;
+            width: 22rem;
         }
     }
+    &__items {
+        padding: 0 3rem;
+    }
     &__list {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 400;
         color: $color-grey;
-        display: block;
         margin: 1rem 0;
     }
     &__percentage {
         display: flex;
     }
     &__percentage-number {
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 900;
         color: $color-primary;
-        display: block;
         margin: 0 2rem;
+        flex: 0 0 30%;
     }
     &__percentage-text {
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 400;
         color: $color-primary;
+        display: block;
+        margin-top: -1.5rem;
     }
     &__percentage-count {
-        display: block;
-        width: 50%;
-        height: 2.5rem;
-        background-color: $color-purple;
+        margin-top: -1rem;
+    }
+    &__percentage-count-1 {
+        @include percentage;
+        background-color: $color-light-2;
+        width: 30rem;
+    }
+    &__percentage-count-2 {
+        @include percentage;
+        background-color: $color-light-green-2;
+        width: 13rem;
+    }
+    &__percentage-count-3 {
+        @include percentage;
+        background-color: $color-light-green-3;
+        width: 18rem;
     }
 }

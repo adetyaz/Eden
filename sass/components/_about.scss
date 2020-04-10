@@ -39,6 +39,7 @@
     &__image {
         height: 50rem;
         position: relative;
+        z-index: 2;
         &--1 {
             bottom: 18rem;
             right: 3.5rem;
@@ -53,5 +54,54 @@
             left: 11rem;
             margin-bottom: -68rem;
         }
+    }
+    &__card {
+        height: 8rem;
+        width: 30rem;
+        padding: 2rem 2rem;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 0 0 .8rem rgba($color-black, .2);
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $color-black;
+        z-index: 3;
+        position: absolute;
+        &--1 {
+            background-color: $color-light-green;
+            bottom: 79rem;
+            left: -5rem;
+        }
+        &--2 {
+            background-color: $color-light-pink;
+            bottom: 32rem;
+            left: 46rem;
+        }
+        &-icon {
+            height: 3rem;
+            width: 3rem;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            margin: .5rem 1.5rem;
+            padding: .3rem .5rem;
+            &-img {
+                color: $color-white;
+                font-size: 2rem;
+            }
+            &--1 {
+                background-color: $color-green;
+            }
+            &--2 {
+                background-color: $color-pink;
+            }
+        }
+    }
+    &__misc-img {
+        z-index: 1;
+        position: absolute;
+        bottom: 70.7rem;
+        height: 30rem;
+        left: 40%;
     }
 }

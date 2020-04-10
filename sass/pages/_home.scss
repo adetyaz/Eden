@@ -1,7 +1,8 @@
 .section-home {
     background: transparent url('../../imgs/BG.png')no-repeat;
-    background-size: contain;
-    margin: 2rem 2rem;
+    background-size: 95rem 57rem;
+    margin: 3rem 3rem;
+    z-index: .5;
 }
 
 .section-about {
@@ -12,4 +13,18 @@
 
 .section-steps {
     padding: 0 10rem;
+}
+
+.section-faq {
+    background: transparent url('../../imgs/Path 14.png') no-repeat;
+    background-size: 60rem 55rem;
+    &__title {
+        margin-left: 15rem;
+    }
+}
+
+.section-testimony {
+    background: transparent url("../../imgs/Path 13.png")no-repeat;
+    background-size: contain;
+    margin: 6rem 0;
 }

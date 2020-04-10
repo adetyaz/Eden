@@ -8,7 +8,7 @@
     }
     &__about {
         font-size: 5rem;
-        font-weight: bolder;
+        font-weight: 900;
         text-transform: capitalize;
         color: $color-black;
         display: block;
@@ -20,6 +20,20 @@
         font-size: 5rem;
         font-weight: bolder;
         text-transform: capitalize;
+        color: $color-black;
+        padding: 0 3rem;
+    }
+    &__faq {
+        font-size: 5rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: $color-black;
+        display: block;
+    }
+    &__testimonial {
+        font-size: 5rem;
+        font-weight: bolder;
+        text-transform: uppercase;
         color: $color-black;
         display: block;
     }
@@ -55,6 +69,24 @@
     &__steps {
         font-size: 1.6rem;
         font-weight: 400;
+        color: $color-black;
+        padding: 1.7rem 3rem;
+    }
+    &__faq {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-black;
+        display: block;
+    }
+    &__testimonial {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: $color-black;
+        display: block;
+    }
+    &__user-name {
+        font-size: 1.2rem;
+        font-weight: 700;
         color: $color-black;
         display: block;
     }

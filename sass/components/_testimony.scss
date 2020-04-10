@@ -1,0 +1,51 @@
+.testimony {
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+    &__testimonies {
+        flex: 0 0 65%;
+    }
+    &__image {
+        z-index: 2;
+        display: block;
+        position: relative;
+        width: 25%;
+    }
+    &__content {
+        margin-bottom: 8rem;
+        &--1 {
+            position: relative;
+            left: 18rem;
+        }
+    }
+    &__card {
+        height: 16rem;
+        width: 38rem;
+        padding: 2rem 2rem;
+        border: 1px solid transparent;
+        border-radius: .5rem;
+        background-color: #E9FEFF;
+        box-shadow: 0 0 0.8rem rgba($color-black, 0.2);
+        position: relative;
+        left: 20rem;
+        bottom: 35rem;
+        z-index: 1;
+        margin-bottom: -33rem;
+        &--1 {
+            left: 16rem;
+            bottom: 33rem;
+        }
+    }
+    &__text {
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: justify;
+        color: $color-black;
+    }
+}
+
+.user-name {
+    position: relative;
+    left: 3rem;
+    top: 8rem;
+}

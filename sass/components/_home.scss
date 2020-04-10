@@ -3,16 +3,41 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    z-index: 3;
     &__story {
         position: relative;
         bottom: 4rem;
+        margin-left: 5rem;
     }
     &__image-content {
         margin-top: 8rem;
     }
     &__image {
-        width: 95%;
-        margin-right: 3rem;
+        width: 100%;
+        margin-left: 5rem;
+        z-index: 2;
+        position: relative;
+    }
+    &__chat-pop {
+        display: block;
+        position: absolute;
+        height: 18rem;
+        z-index: 2;
+        &--1 {
+            top: 50rem;
+            left: 60rem;
+        }
+        &--2 {
+            bottom: 37rem;
+            left: 72%;
+        }
+    }
+    &__misc-img {
+        z-index: 1;
+        position: absolute;
+        bottom: 25rem;
+        height: 32rem;
+        left: 63%;
     }
 }
 
