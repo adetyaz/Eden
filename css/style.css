@@ -291,7 +291,7 @@ body {
       top: 50rem;
       left: 60rem; }
     .home__chat-pop--2 {
-      bottom: 37rem;
+      bottom: 42rem;
       left: 72%; }
   .home__misc-img {
     z-index: 1;
@@ -465,40 +465,43 @@ body {
     flex: 0 0 65%; }
   .testimony__image {
     z-index: 2;
-    display: block;
-    position: relative;
-    width: 25%; }
+    width: 22rem;
+    position: relative; }
+    .testimony__image--1 {
+      width: 18rem;
+      margin-left: 2rem;
+      margin-bottom: 1.5rem; }
   .testimony__content {
-    margin-bottom: 8rem; }
+    margin-bottom: 18rem; }
     .testimony__content--1 {
       position: relative;
-      left: 18rem; }
+      left: 25%; }
   .testimony__card {
     height: 16rem;
-    width: 38rem;
+    width: 32rem;
     padding: 2rem 2rem;
     border: 1px solid transparent;
-    border-radius: .5rem;
+    border-radius: 1rem 0 1rem 0;
     background-color: #E9FEFF;
     box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
-    position: relative;
-    left: 20rem;
-    bottom: 35rem;
     z-index: 1;
+    position: relative;
+    bottom: 28rem;
+    left: 12rem;
     margin-bottom: -33rem; }
-    .testimony__card--1 {
-      left: 16rem;
-      bottom: 33rem; }
   .testimony__text {
     font-size: 1.2rem;
     font-weight: 400;
     text-align: justify;
     color: #000000; }
+    .testimony__text-content {
+      position: relative;
+      bottom: 20rem; }
 
 .user-name {
   position: relative;
-  left: 3rem;
-  top: 8rem; }
+  left: 2rem;
+  top: 5rem; }
 
 .footer {
   display: flex;
