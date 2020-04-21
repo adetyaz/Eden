@@ -5,7 +5,7 @@
     color: $color-secondary;
     border: transparent;
     border-radius: .3rem;
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
     display: block;
     font-size: 1.6rem;
     &:hover {
@@ -16,7 +16,16 @@
 .btn__home {
     width: 16rem;
     height: 4.5rem;
-    padding: 10px 16px;
+    padding: 6px 16px;
     text-decoration: none;
     margin-top: 3rem;
+}
+
+.btn__icon {
+    font-size: 2rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    &:hover {
+        margin-left: 2rem;
+    }
 }

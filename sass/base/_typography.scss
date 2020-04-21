@@ -5,6 +5,9 @@
         font-weight: 900;
         color: $color-primary;
         display: block;
+        @media screen and (max-width: 600px) {
+            font-size: 4.5rem;
+        }
     }
     &__about {
         font-size: 5rem;
@@ -15,6 +18,10 @@
         padding: 10px 9rem;
         margin-left: -10rem;
         margin-bottom: 3rem;
+        @media screen and (max-width: 600px) {
+            font-size: 4rem;
+            padding: 0 9.2rem;
+        }
     }
     &__steps {
         font-size: 5rem;

@@ -3,32 +3,66 @@
     align-items: center;
     background: transparent linear-gradient(180deg, #FFF4BF 0%, #FFFFFF 100%) no-repeat;
     background-size: 122rem 45rem;
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+        background-size: cover;
+    }
     &__text-content {
         flex: 0 0 50%;
         padding-left: 10rem;
         position: relative;
         bottom: 54rem;
         margin-bottom: -60rem;
+        @media screen and (max-width: 600px) {
+            flex: 0 0 0;
+            padding-left: 1.25rem;
+        }
     }
     &__features {
         display: flex;
         align-items: center;
         margin-top: 10rem;
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+            position: relative;
+            padding: 0 4rem;
+        }
+        // &:nth-child(1) and &:nth-child(2) and &:nth-child(3) {
+        //     position: relative;
+        // }
         &--time {
             flex: 0 0 44%;
+            @media screen and (max-width: 600px) {
+                position: relative;
+                top: 25rem;
+            }
         }
         &--experience {
             flex: 0 0 45%;
             margin-left: 2rem;
+            @media screen and (max-width: 600px) {
+                position: relative;
+                margin-left: 0;
+                top: 90rem;
+            }
         }
         &--energy {
             flex: 0 0 45%;
             margin-left: 2rem;
+            @media screen and (max-width: 600px) {
+                position: relative;
+                margin-left: 0;
+                top: 55rem;
+            }
         }
         &--icon {
             height: 6.5rem;
             width: 6.5rem;
             text-align: center;
+            @media screen and (max-width: 600px) {
+                height: 4.5rem;
+                width: 4.5rem;
+            }
         }
     }
     &__image-content {
@@ -40,19 +74,34 @@
         height: 50rem;
         position: relative;
         z-index: 2;
+        @media screen and (max-width: 600px) {
+            height: 38.5rem;
+        }
         &--1 {
             bottom: 18rem;
             right: 3.5rem;
             margin-bottom: -18rem;
+            @media screen and (max-width: 600px) {
+                bottom: 38rem;
+                right: -1.5rem;
+            }
         }
         &--2 {
             bottom: 30rem;
             left: 20rem;
+            @media screen and (max-width: 600px) {
+                left: 0;
+                bottom: 18rem;
+            }
         }
         &--3 {
             bottom: 79rem;
             left: 11rem;
             margin-bottom: -68rem;
+            @media screen and (max-width: 600px) {
+                left: 0;
+                bottom: 40rem;
+            }
         }
     }
     &__card {
@@ -72,11 +121,19 @@
             background-color: $color-light-green;
             bottom: 79rem;
             left: -5rem;
+            @media screen and (max-width: 600px) {
+                left: 10rem;
+                bottom: 88rem;
+            }
         }
         &--2 {
             background-color: $color-light-pink;
             bottom: 32rem;
             left: 46rem;
+            @media screen and (max-width: 600px) {
+                bottom: 0;
+                left: 10rem;
+            }
         }
         &-icon {
             height: 3rem;
@@ -103,5 +160,8 @@
         bottom: 70.7rem;
         height: 30rem;
         left: 40%;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
 }

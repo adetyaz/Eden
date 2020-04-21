@@ -4,10 +4,17 @@
     justify-content: center;
     overflow: hidden;
     z-index: 3;
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
     &__story {
         position: relative;
         bottom: 4rem;
         margin-left: 5rem;
+        @media screen and (max-width: 600px) {
+            top: 5.5rem;
+            margin-left: 0;
+        }
     }
     &__image-content {
         margin-top: 8rem;
@@ -17,6 +24,11 @@
         margin-left: 5rem;
         z-index: 2;
         position: relative;
+        @media screen and (max-width: 600px) {
+            width: 130%;
+            right: 6rem;
+            margin-left: 0;
+        }
     }
     &__chat-pop {
         display: block;
@@ -26,10 +38,18 @@
         &--1 {
             top: 50rem;
             left: 60rem;
+            @media screen and (max-width: 600px) {
+                left: 2.8rem;
+                top: 80rem;
+            }
         }
         &--2 {
             bottom: 42rem;
             left: 72%;
+            @media screen and (max-width: 600px) {
+                left: 5rem;
+                bottom: 25rem;
+            }
         }
     }
     &__misc-img {
@@ -38,6 +58,9 @@
         bottom: 25rem;
         height: 32rem;
         left: 63%;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
 }
 

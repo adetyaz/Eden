@@ -3,23 +3,39 @@
     background-size: 95rem 57rem;
     margin: 3rem 3rem;
     z-index: .5;
+    @media screen and (max-width: 600px) {
+        background-size: cover;
+    }
 }
 
 .section-about {
     margin-top: 25rem;
     overflow-x: visible;
     padding-right: 18rem;
+    @media screen and (max-width: 600px) {
+        margin-top: 0rem;
+        padding: 50rem 0;
+    }
 }
 
 .section-steps {
     padding: 0 10rem;
+    @media screen and (max-width: 600px) {
+        padding: 0 0;
+    }
 }
 
 .section-faq {
     background: transparent url('../../imgs/Path 14.png') no-repeat;
     background-size: 60rem 55rem;
+    @media screen and (max-width: 600px) {
+        background-size: cover;
+    }
     &__title {
         margin-left: 15rem;
+        @media screen and (max-width: 600px) {
+            margin-left: 0;
+        }
     }
 }
 

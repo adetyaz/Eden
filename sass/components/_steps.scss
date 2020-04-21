@@ -3,6 +3,10 @@
     align-items: center;
     background: transparent linear-gradient(180deg, #F2FFFD 0%, #FFFFFF 100%) no-repeat;
     background-size: 120rem 60rem;
+    @media screen and (max-width: 600px) {
+        background-size: cover;
+        flex-direction: column;
+    }
     &__image-content {
         flex: 0 0 50%;
     }
@@ -11,20 +15,28 @@
         position: relative;
         bottom: 12rem;
         margin-bottom: -9rem;
+        @media screen and (max-width: 600px) {
+            margin-bottom: 0;
+            margin-top: 3rem;
+            left: 10rem;
+        }
     }
     &__list {
         list-style: none;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 400;
         color: $color-black;
+        @media screen and (max-width: 600px) {
+            padding: 0 1.3rem;
+        }
     }
     &__numbers {
         border-radius: 50%;
         background-color: $color-purple;
         color: $color-white;
         display: inline-block;
-        font-size: 1.2rem;
-        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+        padding: .8rem 1.5rem;
         margin: 1rem 2rem;
     }
     &__profile-card {
@@ -41,6 +53,10 @@
         display: inline-block;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        @media screen and (max-width: 600px) {
+            left: 3rem;
+            bottom: 16rem;
+        }
     }
     &__profile-wrap {
         filter: drop-shadow(0 0 1.3rem rgba($color-black, .2));
@@ -48,6 +64,9 @@
     &__text-content {
         position: relative;
         bottom: 27rem;
+        @media screen and (max-width: 600px) {
+            bottom: 12rem;
+        }
     }
     &__misc-image {
         position: relative;
@@ -55,6 +74,9 @@
         bottom: 18rem;
         height: 21rem;
         right: 35.8rem;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
     &__check-mark {
         background-color: #61FFA5;
@@ -64,10 +86,14 @@
         bottom: 10rem;
         border: 1px solid transparent;
         border-radius: 50%;
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
         z-index: 1;
-        padding: .5rem .4rem;
+        padding: 0.9rem 1rem;
+        @media screen and (max-width: 600px) {
+            left: 31%;
+            bottom: 13rem;
+        }
         &-icon {
             font-size: 3rem;
             color: $color-white;
