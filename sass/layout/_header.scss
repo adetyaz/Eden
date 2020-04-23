@@ -1,13 +1,20 @@
-.header{
+.header {
     position: relative;
-    
-
-    &__logo-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    top: 5rem;
+    margin-top: -3rem;
+    @media screen and (max-width: 600px) {
+        top: -2rem;
+        margin-top: 3rem;
+    }
+    &__logo-box {
         position: absolute;
         top: 1.5rem;
         left: 5%;
     }
-    &__logo{
+    &__logo {
         height: 3rem;
         width: 4rem;
     }

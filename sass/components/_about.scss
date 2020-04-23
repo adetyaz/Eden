@@ -13,9 +13,15 @@
         position: relative;
         bottom: 54rem;
         margin-bottom: -60rem;
+        @media screen and (max-width: 900px) {
+            padding: 5rem;
+        }
         @media screen and (max-width: 600px) {
             flex: 0 0 0;
             padding-left: 1.25rem;
+        }
+        @media screen and (max-width: 376px) {
+            padding-left: 4.25rem;
         }
     }
     &__features {
@@ -34,7 +40,10 @@
             flex: 0 0 44%;
             @media screen and (max-width: 600px) {
                 position: relative;
-                top: 25rem;
+                top: 31rem;
+            }
+            @media screen and (max-width: 376px) {
+                top: 36.5rem;
             }
         }
         &--experience {
@@ -43,7 +52,7 @@
             @media screen and (max-width: 600px) {
                 position: relative;
                 margin-left: 0;
-                top: 90rem;
+                top: 95rem;
             }
         }
         &--energy {
@@ -52,7 +61,10 @@
             @media screen and (max-width: 600px) {
                 position: relative;
                 margin-left: 0;
-                top: 55rem;
+                top: 62rem;
+            }
+            @media screen and (max-width: 376px) {
+                top: 62.5rem;
             }
         }
         &--icon {
@@ -74,6 +86,9 @@
         height: 50rem;
         position: relative;
         z-index: 2;
+        @media screen and (max-width: 900px) {
+            height: 40rem;
+        }
         @media screen and (max-width: 600px) {
             height: 38.5rem;
         }
@@ -89,6 +104,9 @@
         &--2 {
             bottom: 30rem;
             left: 20rem;
+            @media screen and (max-width: 900px) {
+                left: 10rem;
+            }
             @media screen and (max-width: 600px) {
                 left: 0;
                 bottom: 18rem;
@@ -98,6 +116,9 @@
             bottom: 79rem;
             left: 11rem;
             margin-bottom: -68rem;
+            @media screen and (max-width: 900px) {
+                left: 6rem;
+            }
             @media screen and (max-width: 600px) {
                 left: 0;
                 bottom: 40rem;
@@ -121,18 +142,23 @@
             background-color: $color-light-green;
             bottom: 79rem;
             left: -5rem;
+            @media screen and (max-width: 900px) {
+                bottom: 72rem;
+            }
             @media screen and (max-width: 600px) {
-                left: 10rem;
-                bottom: 88rem;
+                display: none;
             }
         }
         &--2 {
             background-color: $color-light-pink;
             bottom: 32rem;
             left: 46rem;
+            @media screen and (max-width: 900px) {
+                bottom: 18rem;
+                left: 7rem;
+            }
             @media screen and (max-width: 600px) {
-                bottom: 0;
-                left: 10rem;
+                display: none;
             }
         }
         &-icon {
@@ -155,11 +181,14 @@
         }
     }
     &__misc-img {
-        z-index: 1;
+        z-index: 0;
         position: absolute;
         bottom: 70.7rem;
         height: 30rem;
         left: 40%;
+        @media screen and (max-width: 900px) {
+            bottom: 30rem;
+        }
         @media screen and (max-width: 600px) {
             display: none;
         }

@@ -1,8 +1,11 @@
 .section-home {
     background: transparent url('../../imgs/BG.png')no-repeat;
     background-size: 95rem 57rem;
-    margin: 3rem 3rem;
+    margin: 0 3rem;
     z-index: .5;
+    @media screen and (max-width: 900px) {
+        background-size: 77rem 57rem;
+    }
     @media screen and (max-width: 600px) {
         background-size: cover;
     }
@@ -12,6 +15,9 @@
     margin-top: 25rem;
     overflow-x: visible;
     padding-right: 18rem;
+    @media screen and (max-width: 900px) {
+        padding: 5rem 0;
+    }
     @media screen and (max-width: 600px) {
         margin-top: 0rem;
         padding: 50rem 0;
@@ -20,9 +26,12 @@
 
 .section-steps {
     padding: 0 10rem;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 900px) {
         padding: 0 0;
     }
+    // @media screen and (max-width: 600px) {
+    //     padding: 0 0;
+    // }
 }
 
 .section-faq {
@@ -33,8 +42,14 @@
     }
     &__title {
         margin-left: 15rem;
+        @media screen and (max-width: 900px) {
+            margin-left: 6rem;
+        }
         @media screen and (max-width: 600px) {
             margin-left: 0;
+        }
+        @media screen and (max-width: 600px) {
+            margin-left: 1.1rem;
         }
     }
 }
@@ -43,4 +58,7 @@
     background: transparent url("../../imgs/Path 13.png")no-repeat;
     background-size: contain;
     margin: 6rem 0;
+    @media screen and (max-width: 376px) {
+        padding: 0 1.1rem;
+    }
 }

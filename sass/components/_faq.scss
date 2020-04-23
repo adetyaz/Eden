@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     padding: 8rem 17rem;
+    @media screen and (max-width: 900px) {
+        padding: 8rem 6rem;
+    }
     @media screen and (max-width: 600px) {
         padding: 0;
         flex-direction: column;
@@ -26,7 +29,7 @@
         margin-bottom: 2.5rem;
         padding: 1rem 2rem;
         @media screen and (max-width: 600px) {
-            padding: 1rem;
+            padding: 0 1rem;
         }
         &:nth-child(2) {
             width: 50rem;
@@ -34,6 +37,9 @@
                 width: 44rem;
                 position: relative;
                 right: 2rem;
+            }
+            @media screen and (max-width: 376px) {
+                width: 38rem;
             }
         }
         &:nth-child(3) {
@@ -45,6 +51,15 @@
         }
         &-1 {
             width: 42rem;
+            @media screen and (max-width: 376px) {
+                width: 38rem;
+            }
+        }
+        &--1 {
+            @media screen and (max-width: 600px) {
+                position: relative;
+                right: 2rem;
+            }
         }
     }
     &__answer-card {
@@ -58,6 +73,9 @@
         border-radius: .3rem;
         box-shadow: 0 0 1rem rgba($color-black, .2);
         padding: 1rem 2rem;
+        @media screen and (max-width: 376px) {
+            width: 38rem;
+        }
     }
     &__question {
         margin-bottom: 1.5rem;

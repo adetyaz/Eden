@@ -26,7 +26,7 @@
         position: relative;
         @media screen and (max-width: 600px) {
             width: 130%;
-            right: 6rem;
+            right: 5.4rem;
             margin-left: 0;
         }
     }
@@ -39,25 +39,32 @@
             top: 50rem;
             left: 60rem;
             @media screen and (max-width: 600px) {
-                left: 2.8rem;
-                top: 80rem;
+                display: none;
             }
         }
         &--2 {
-            bottom: 42rem;
+            bottom: 20rem;
             left: 72%;
+            @media screen and (max-width: 900px) {
+                bottom: 111rem;
+                left: 64%;
+            }
             @media screen and (max-width: 600px) {
-                left: 5rem;
-                bottom: 25rem;
+                display: none;
             }
         }
     }
     &__misc-img {
         z-index: 1;
         position: absolute;
-        bottom: 25rem;
+        bottom: 4rem;
         height: 32rem;
         left: 63%;
+        @media screen and (max-width: 900px) {
+            z-index: -1;
+            bottom: 110rem;
+            left: 53%;
+        }
         @media screen and (max-width: 600px) {
             display: none;
         }
@@ -69,8 +76,11 @@
         display: flex;
     }
     &__image {
-        margin: 1rem 2rem;
+        margin: 1rem 1rem;
         width: 10rem;
         height: min-content;
+        &:nth-child(1) {
+            margin-top: 2rem;
+        }
     }
 }

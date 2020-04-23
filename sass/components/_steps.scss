@@ -15,6 +15,9 @@
         position: relative;
         bottom: 12rem;
         margin-bottom: -9rem;
+        @media screen and (max-width: 900px) {
+            left: 2rem;
+        }
         @media screen and (max-width: 600px) {
             margin-bottom: 0;
             margin-top: 3rem;
@@ -28,6 +31,9 @@
         color: $color-black;
         @media screen and (max-width: 600px) {
             padding: 0 1.3rem;
+        }
+        @media screen and (max-width: 376px) {
+            padding: 0 0;
         }
     }
     &__numbers {
@@ -53,9 +59,15 @@
         display: inline-block;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        @media screen and (max-width: 900px) {
+            left: 8rem;
+        }
         @media screen and (max-width: 600px) {
             left: 3rem;
             bottom: 16rem;
+        }
+        @media screen and (max-width: 376px) {
+            width: 36rem;
         }
     }
     &__profile-wrap {
@@ -82,7 +94,7 @@
         background-color: #61FFA5;
         position: relative;
         display: inline-block;
-        right: 5%;
+        left: 86%;
         bottom: 10rem;
         border: 1px solid transparent;
         border-radius: 50%;

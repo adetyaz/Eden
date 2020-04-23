@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
     <link rel="stylesheet" href="css/fonts/all.css">
-
-
     <link rel="shortcut icon" type="image/png" href="imgs/eden_png.png">
     <title>Edenlife</title>
 </head>
@@ -18,26 +17,28 @@
         <div class="header__logo-box">
             <img src="imgs/eden_png.png" alt="logo" class="header__logo">
         </div>
-        <nav class="nav" style="display: none;">
+        <nav class="nav">
             <ul class="nav__items">
                 <li class="nav__list">
-                    <a href="" class="nav__links"></a>
+                    <a href="" class="nav__link">How it works</a>
                 </li>
                 <li class="nav__list">
-                    <a href="" class="nav__links"></a>
+                    <a href="" class="nav__link">Gardeners</a>
                 </li>
                 <li class="nav__list">
-                    <a href="" class="nav__links"></a>
+                    <a href="" class="nav__link">Partners</a>
                 </li>
                 <li class="nav__list">
-                    <a href="" class="nav__links"></a>
+                    <a href="" class="nav__link">Pricing</a>
                 </li>
-                <li class="nav__list">
-                    <a href="" class="nav__links"></a>
-                </li>
-                <li class="nav__list">
-                    <a href="" class="nav__links"></a>
-                </li>
+                <div class="nav__list-extra">
+                    <li class="nav__list">
+                        <a href="" class="nav__link">Login</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="" class="nav__link">Get Started</a>
+                    </li>
+                </div>
             </ul>
         </nav>
         <nav class="mobile-nav" style="display: none;">
@@ -49,37 +50,37 @@
             <div class="home">
                 <div class="home__story">
                     <div class="heading">
-                        <h2 class="heading__home">
+                        <h2 class="heading__home" data-aos="fade-up">
                             Say Goodbye To Chores Forever.
                         </h2>
                     </div>
                     <div class="paragraph">
-                        <div class="paragraph__home">
+                        <div class="paragraph__home" data-aos="fade-up" data-aos-delay="200">
                             Tired of housework? We’ve built the service you always dreamed of and now you can avoid house chores by automating them on Eden.
                         </div>
                     </div>
-                    <a href="#" class="btn btn__home">
+                    <a href="#" class="btn btn__home" data-aos="fade-up" data-aos-delay="300">
                         Get Started 
                         <i class="fa fa-long-arrow-alt-right btn__icon"></i>
                     </a>
                 </div>
                 <div class="home__image-content">
-                    <img src="imgs/IMG_7057.png" alt="home image" class="home__image">
+                    <img src="imgs/IMG_7057.png" alt="home image" class="home__image" data-aos="fade-left" data-aos-delay="300">
                     <img src="imgs/Spirals_bg.png" alt="misc image" class="home__misc-img">
-                    <img src="imgs/Chat head_1.png" alt="chat" class="home__chat-pop home__chat-pop--1">
-                    <img src="imgs/Chat_head_2.png" alt="chat" class="home__chat-pop home__chat-pop--2">
+                    <img src="imgs/Chat head_1.png" alt="chat" class="home__chat-pop home__chat-pop--1" data-aos="flip-down" data-aos-delay="400">
+                    <img src="imgs/Chat_head_2.png" alt="chat" class="home__chat-pop home__chat-pop--2" data-aos="flip-down" data-aos-delay="400">
                 </div>
             </div>
             <div class="featured">
                 <div class="paragraph">
-                    <p class="paragraph__featured">
+                    <p class="paragraph__featured" data-aos="fade-up" data-aos-delay="350">
                         As featured on
                     </p>
                 </div>
                 <div class="featured__image-content">
-                    <img src="imgs/TechCabal-1.png" alt="techCabal" class="featured__image">
-                    <img src="imgs/techpoint.png" alt="techpoint" class="featured__image">
-                    <img src="imgs/future_africa_logo_site.png" alt="future africa" class="featured__image">
+                    <img src="imgs/TechCabal-1.png" alt="techCabal" class="featured__image" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="imgs/techpoint.png" alt="techpoint" class="featured__image" data-aos="zoom-in" data-aos-delay="450">
+                    <img src="imgs/future_africa_logo_site.png" alt="future africa" class="featured__image" data-aos="zoom-in" data-aos-delay="500">
 
                 </div>
             </div>
@@ -88,17 +89,17 @@
             <div class="about">
                 <div class="about__text-content">
                     <div class="heading">
-                        <h1 class="heading__about">
+                        <h1 class="heading__about" data-aos="fade-up">
                             You might ask, why Eden?
                         </h1>
                     </div>
                     <div class="paragraph">
-                        <p class="paragraph__about">
+                        <p class="paragraph__about" data-aos="fade-up" data-aos-delay="200">
                             Because chores are boring and do nobody any good. Nobody ever gave you an award for best dishwasher, so what’s the point? Save yourself the tedium, buy back your time for a more enriching lifestyle. Live a better life.
                         </p>
                     </div>
                     <div class="about__features">
-                        <div class="about__features--time">
+                        <div class="about__features--time" data-aos="fade-up" data-aos-delay="300">
                             <img src="imgs/time.png" alt="" class="about__features--icon">
                             <div class="paragraph">
                                 <p class="paragraph__about--features">
@@ -106,7 +107,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="about__features--energy">
+                        <div class="about__features--energy" data-aos="fade-up" data-aos-delay="400">
                             <img src="imgs/energy.png" alt="" class="about__features--icon">
                             <div class="paragraph">
                                 <p class="paragraph__about--features">
@@ -114,7 +115,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="about__features--experience">
+                        <div class="about__features--experience" data-aos="fade-up" data-aos-delay="500">
                             <img src="imgs/experience.png" alt="" class="about__features--icon">
                             <div class="paragraph">
                                 <p class="paragraph__about--features">
@@ -125,12 +126,12 @@
                     </div>
                 </div>
                 <div class="about__image-content">
-                    <img src="imgs/cdc-VRpjDw3WqqI-unsplash.png" alt="" class="about__image about__image--1">
-                    <img src="imgs/the-honest-company-Ua9AK-pZ5cw-unsplash.png" alt="" class="about__image about__image--2">
-                    <img src="imgs/ashwini-chaudhary-Iu6parQAO-U-unsplash.png" alt="" class="about__image about__image--3">
-                    <img src="imgs/Spirals_bg.png" alt="misc image" class="about__misc-img">
+                    <img src="imgs/cdc-VRpjDw3WqqI-unsplash.png" alt="" class="about__image about__image--1" data-aos="fade-left" data-aos-delay="200">
+                    <img src="imgs/the-honest-company-Ua9AK-pZ5cw-unsplash.png" alt="" class="about__image about__image--2" data-aos="fade-left" data-aos-delay="300">
+                    <img src="imgs/ashwini-chaudhary-Iu6parQAO-U-unsplash.png" alt="" class="about__image about__image--3" data-aos="fade-left" data-aos-delay="400">
+                    <img src="imgs/Spirals_bg.png" alt="misc image" class="about__misc-img" data-aos="zoom-in" data-aos-delay="200">
 
-                    <div class="about__card about__card--1">
+                    <div class="about__card about__card--1" data-aos="flip-down" data-aos-delay="300">
                         <div class="about__card-icon about__card-icon--1">
                             <i class="fa fa-bell about__card-icon-img"></i>
                         </div>
@@ -140,7 +141,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="about__card about__card--2">
+                    <div class="about__card about__card--2" data-aos="flip-down" data-aos-delay="450">
                         <div class="about__card-icon about__card-icon--2">
                             <i class="fa fa-bell about__card-icon-img"></i>
                         </div>
@@ -154,19 +155,16 @@
                 </div>
             </div>
         </section>
-
         <section class="section-steps">
             <div class="steps">
                 <div class="steps__image-content">
-                    <img src="imgs/eye-for-ebony-OExQjtxbIpE-unsplash.png" alt="profile pic" class="steps__image">
+                    <img src="imgs/eye-for-ebony-OExQjtxbIpE-unsplash.png" alt="profile pic" class="steps__image" data-aos="fade-right">
                     <img src="imgs/Spirals_bg.png" alt="misc" class="steps__misc-image">
-                    <div class="steps__check-mark">
+                    <div class="steps__check-mark" data-aos="zoom-in" data-aos-delay="400">
                         <i class="fa fa-check steps__check-mark-icon"></i>
-
                     </div>
                     <div class="steps__profile-wrap">
-                        <div class="steps__profile-card">
-
+                        <div class="steps__profile-card" data-aos="fade-up" data-aos-delay="200">
                             <div class="profile">
                                 <div class="profile__header">
                                     <img src="imgs/eye-for-ebony-OExQjtxbIpE-unsplash-1.png" alt="profile pic" class="profile__picture">
@@ -182,9 +180,7 @@
                                 <div class="profile__content">
                                     <h4 class="profile__title">
                                         Gardner Profile
-
                                     </h4>
-
                                     <ul class="profile__items">
                                         <li class="profile__list">Proficient in cooking amazing and healthy meal for home and family needs</li>
                                         <li class="profile__list">Adheres to healthy and hygienic process for cooking purposes</li>
@@ -212,17 +208,16 @@
                 </div>
                 <div class="steps__text-content">
                     <div class="heading">
-                        <h2 class="heading__steps">
+                        <h2 class="heading__steps" data-aos="fade-up" data-aos-delay="200">
                             How It Works
                         </h2>
                     </div>
                     <div class="paragraph">
-                        <p class="paragraph__steps">
+                        <p class="paragraph__steps" data-aos="fade-up" data-aos-delay="300">
                             Eden works by giving you a well-trained home concierge (we call them Gardeners), who handles your home’s chores while you go about your day.
                         </p>
                     </div>
-
-                    <ul class="steps__items">
+                    <ul class="steps__items" data-aos="fade-up" data-aos-delay="400">
                         <li class="steps__list"><span class="steps__numbers">1</span>You tell us about your home needs.</li>
                         <li class="steps__list"><span class="steps__numbers">2</span>We assign you an Eden Gardener.</li>
                         <li class="steps__list"><span class="steps__numbers">3</span>Your Gardener takes over all your home's tasks.</li>
@@ -231,16 +226,15 @@
                 </div>
             </div>
         </section>
-
         <section class="section-faq">
             <div class="section-faq__title">
                 <div class="heading">
-                    <h2 class="heading__faq">
+                    <h2 class="heading__faq" data-aos="fade-up">
                         faqs
                     </h2>
                 </div>
                 <div class="paragraph">
-                    <div class="paragraph__faq">
+                    <div class="paragraph__faq" data-aos="fade-up" data-aos-delay="200">
                         Got a couple of question about Eden life? Lets answer a few
                     </div>
                 </div>
@@ -248,35 +242,34 @@
 
             <div class="faq">
                 <div class="faq__answer">
-                    <div class="faq__question-card faq__question-card-1">
+                    <div class="faq__question-card faq__question-card-1" data-aos="fade-up" data-aos-delay="300">
                         Can I try Eden for a week before deciding to pay?
                     </div>
-                    <div class="faq__answer-card">
+                    <div class="faq__answer-card" data-aos="fade-up" data-aos-delay="400">
                         While Eden’s plans run on a monthly schedule, we understand that it’s a significant lifestyle change for first-time customers, and so we offer the Eden Free trials, where we let you ‘sample’ the plan you’re interested in for a week before you finally
                         decide to kickstart your monthly subscription.
                     </div>
                 </div>
 
                 <div class="faq__question">
-                    <div class="faq__question-card faq__question-card--1">
+                    <div class="faq__question-card faq__question-card--1" data-aos="fade-up" data-aos-delay="500">
                         Is there a menu for the meals? <i class="fa fa-plus"></i>
                     </div>
-                    <div class="faq__question-card">
+                    <div class="faq__question-card" data-aos="fade-up" data-aos-delay="600">
                         When does my 1-month subscription start counting? <i class="fa fa-plus"></i>
                     </div>
-                    <div class="faq__question-card">
+                    <div class="faq__question-card" data-aos="fade-up" data-aos-delay="700">
                         How much does it cost? <i class="fa fa-plus"></i>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-testimony">
-
             <div class="testimony">
                 <div class="testimony__testimonies">
                     <div class="testimony__content">
-                        <img src="imgs/IMG.png" alt="profile pic" class="testimony__image testimony__image--1">
-                        <div class="testimony__card">
+                        <img src="imgs/IMG.png" alt="profile pic" class="testimony__image testimony__image--1" data-aos="zoom-in">
+                        <div class="testimony__card" data-aos="fade-up-right" data-aos-delay="200">
                             <p class="testimony__text">
                                 Eden has made my life much easier. Managing a home in Lagos can be a lot of work; and now, I no longer have to worry or stress. With Eden, a trusted and qualified solution provider is literally one call away. Plus, being updated every step of the way
                                 means I never even have to ask questions. </p>
@@ -287,39 +280,39 @@
                         </div>
                     </div>
                     <div class="testimony__content testimony__content--1">
-                        <img src="imgs/IMG_7052.png" alt="profile pic" class="testimony__image">
-                        <div class="testimony__card">
+                        <img src="imgs/IMG_7052.png" alt="profile pic" class="testimony__image" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="testimony__card" data-aos="fade-up-right" data-aos-delay="400">
                             <p class="testimony__text">
                                 I am a working mum of two. I don't have the time and tenacity for well thought out meals for myself. Eden has solved that for me. I can now have a variety of meal options without thinking of the time to prep them.
                             </p>
                             <div class="paragraph">
-                                <p class="paragraph__user-name user-name">
+                                <p class="paragraph__user-name user-name user-name--1">
                                     Ndali Orepitan<br> Learning & Development Manager, Andela
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="testimony__content">
-                        <img src="imgs/IMG_7057-1.png" alt="profile pic" class="testimony__image">
-                        <div class="testimony__card">
+                        <img src="imgs/IMG_7057-1.png" alt="profile pic" class="testimony__image" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="testimony__card" data-aos="fade-up-right" data-aos-delay="500">
                             <p class="testimony__text">
                                 Eden has helped me easily manage my productivity and helped scaled it to the fullest by covering my basic needs such as laundry, cooking and cleaning of my house
                             </p>
                             <div class="paragraph">
-                                <p class="paragraph__user-name user-name">
+                                <p class="paragraph__user-name user-name user-name--2">
                                     Chris Steve<br> CEO, Microsoft Inc.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="testimony__content testimony__content--1">
-                        <img src="imgs//download.png" alt="profile pic" class="testimony__image">\
-                        <div class="testimony__card">
+                        <img src="imgs/download.png" alt="profile pic" class="testimony__image" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="testimony__card" data-aos="fade-up-right" data-aos-delay="600">
                             <p class="testimony__text">
                                 Eden has been so far been one of those services that you don't have to think about (how it works). And that's a great thing, means I can focus on my business and other things knowing that Eden has my laundry and home chores handled.
                             </p>
                             <div class="paragraph">
-                                <p class="paragraph__user-name user-name">
+                                <p class="paragraph__user-name user-name user-name--1">
                                     Timi Ajiboye<br> CEO, BuyCoins
                                 </p>
                             </div>
@@ -328,24 +321,24 @@
                 </div>
                 <div class="testimony__text-content">
                     <div class="heading">
-                        <h2 class="heading__testimonial">
+                        <h2 class="heading__testimonial" data-aos="fade-up" data-aos-delay="300">
                             Testimonials
                         </h2>
                     </div>
                     <div class="paragraph">
-                        <p class="paragraph__testimonial">
+                        <p class="paragraph__testimonial" data-aos="fade-up" data-aos-delay="400">
                             Hear what people have to say about us. Join the garden & start experiencing life as it should be in minutes.
                         </p>
                     </div>
-                    <a href="#" class="btn btn__home">
-                        Get Started <i class="fas fa-long-arrow-alt-right btn__icon"></i>
+                    <a href="#" class="btn btn__home" data-aos="fade-up" data-aos-delay="500">
+                        Get Started <i class="fas fa-long-arrow-alt-right btn__icon" ></i>
                     </a>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <ul class="footer__items">
+    <footer class="footer" data-aos="fade-up">
+        <ul class="footer__items" data-aos="fade-up" data-aos-delay="400">
             <li class="footer__list">
                 Eden
             </li>
@@ -423,6 +416,12 @@
         </ul>
     </footer>
 </body>
-<script src="js/app.js"></script>
+<script src="js/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800,
+        easing: 'ease-in-out'
+    });
+</script>
 
 </html>
