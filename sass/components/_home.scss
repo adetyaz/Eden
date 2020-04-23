@@ -43,7 +43,7 @@
             }
         }
         &--2 {
-            bottom: 20rem;
+            bottom: 40rem;
             left: 72%;
             @media screen and (max-width: 900px) {
                 bottom: 111rem;
@@ -57,7 +57,7 @@
     &__misc-img {
         z-index: 1;
         position: absolute;
-        bottom: 4rem;
+        bottom: 25rem;
         height: 32rem;
         left: 63%;
         @media screen and (max-width: 900px) {
